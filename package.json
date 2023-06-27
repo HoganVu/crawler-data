@@ -1,0 +1,23 @@
+{
+  "name": "crawler-data",
+  "version": "1.0.0",
+  "description": "crawler-river 14 :)",
+  "main": "main.js",
+  "scripts": {
+    "test": "nope ! :)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoganVu/crawler-data.git"
+  },
+  "keywords": [
+    "crawler-data",
+    "nodejs"
+  ],
+  "author": "hogan vu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HoganVu/crawler-data/issues"
+  },
+  "homepage": "https://github.com/HoganVu/crawler-data#readme"
+}
