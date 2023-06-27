@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/HoganVu/crawler-data/issues"
   },
-  "homepage": "https://github.com/HoganVu/crawler-data#readme"
+  "homepage": "https://github.com/HoganVu/crawler-data#readme",
+  "dependencies": {
+    "puppeteer": "^20.7.3"
+  }
 }
