@@ -22,6 +22,6 @@
   "homepage": "https://github.com/HoganVu/crawler-data#readme",
   "dependencies": {
     "image-downloader": "^4.3.0",
-    "puppeteer": "^20.7.3"
+    "puppeteer": "^20.9.0"
   }
 }

@@ -6,13 +6,13 @@ const download = require("image-downloader");
   console.log("Browser openned");
   const page = await browser.newPage();
   const url =
-    "https://toigingiuvedep.vn/wp-content/uploads/2022/11/anh-meo-cute-trai-tim-ma-hong.jpg";
+    "http://kenh14.vn/ai-roi-cung-khac-cac-hot-girl-nay-cung-khong-ngoai-le-khi-vong-1-cu-ngay-cang-phong-phao-20171207193958533.chn";
   await page.goto(url);
   console.log("Page loaded");
 
   const imgLinks = await page.evaluate(() => {
     let imgElements = document.querySelectorAll(
-      ".gallery-item > .gallery-icon .landscape > a > img"
+      ".sp-img-zoom > img, .sp-img-lightbox > img, .detail-img-lightbox > img"
     );
     imgElements = [...imgElements];
     let imgLinks = imgElements.map((i) => i.getAttribute("src"));
